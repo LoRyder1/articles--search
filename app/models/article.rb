@@ -1,8 +1,8 @@
 require 'elasticsearch/model'
 
 class Article < ActiveRecord::Base
-  include Elasticsearch::model
+  include Elasticsearch::Model
   include Elasticsearch::Model::Callbacks
 end
 
-Article.import
+# Article.import
